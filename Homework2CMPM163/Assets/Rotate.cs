@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Rotate : MonoBehaviour
 {
-    public float speed = 1; 
+    public float speed = 100; 
  
     void OnMouseDrag(){
         float rotX = Input.GetAxis("Mouse X")*speed*Mathf.Deg2Rad;
